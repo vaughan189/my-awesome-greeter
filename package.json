@@ -1,7 +1,7 @@
 {
   "name": "@vaughan189/my-awesome-greeter",
   "version": "1.0.0",
-  "description": "React Mock API",
+  "description": "A nice greeter",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/vaughan189/my-awesome-greeter.git"
   },
-  "keywords": [],
+  "keywords": ["Hello", "Greeter"],
   "author": "Vaughan Po <vaughan188@gmail.com>",
   "license": "ISC",
   "bugs": {
