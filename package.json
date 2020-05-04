@@ -1,5 +1,5 @@
 {
-  "name": "react-mock-api",
+  "name": "@vaughan189/my-awesome-greeter",
   "version": "1.0.0",
   "description": "React Mock API",
   "main": "lib/index.js",
@@ -17,15 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vaughanpo/react-mock-api.git"
+    "url": "git+https://github.com/vaughan189/my-awesome-greeter.git"
   },
   "keywords": [],
-  "author": "Vaughan Po",
+  "author": "Vaughan Po <vaughan188@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vaughanpo/react-mock-api/issues"
+    "url": "https://github.com/vaughan189/my-awesome-greeter/issues"
   },
-  "homepage": "https://github.com/vaughanpo/react-mock-api#readme",
+  "homepage": "https://github.com/vaughan189/my-awesome-greeter#readme",
   "devDependencies": {
     "@types/jest": "^25.2.1",
     "jest": "^25.5.2",
