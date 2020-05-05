@@ -5,6 +5,7 @@
     "rules": {
       "prettier/prettier": ["error"],
       "import/extensions": 0,
+      "import/prefer-default-export": 0,
       "no-unused-vars": "warn",
       "semi": ["error", "always"],
       "quotes": ["error", "single"]
