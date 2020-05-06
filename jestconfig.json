@@ -7,5 +7,11 @@
         "ts",
         "js",
         "node"
+    ],
+    "coverageReporters": [
+        "json",
+        "lcov",
+        "text",
+        "clover"
     ]
 }

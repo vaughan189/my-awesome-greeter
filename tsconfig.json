@@ -1,13 +1,27 @@
 {
     "compilerOptions": {
+        "lib": [
+            "es2015"
+        ],
         "target": "es6",
-        "module": "commonjs", // Specify module code generation: "None", "CommonJS", "AMD".
-        "declaration": true, // Generates corresponding .d.ts file.
+        "module": "commonjs",
+        "declaration": true,
         "outDir": "./lib",
-        "strict": true, // Enable all strict type checking options.
+        "strict": true,
         "noUnusedLocals": true,
-        "pretty": true // Stylize errors and messages using color and context.
+        "pretty": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "types": [
+            "reflect-metadata", "node"
+        ]
     },
-    "include": ["src", "tests"],
-    "exclude": ["node_modules", "**/tests/*"]
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules", "tests/**/*.ts"],
+    "typeRoots": [
+        "../node_modules/@types/index.d.ts"
+    ]
 }
